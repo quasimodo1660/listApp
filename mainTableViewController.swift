@@ -118,7 +118,7 @@ class mainTableViewController: UITableViewController, ViewControllerDelegate {
         alertController.addAction(sendButton)
         alertController.addAction(deleteButton)
         alertController.addAction(cancelButton)
-        self.navigationController!.presentViewController(alertController, animated: true, completion: nil)
+        self.present(alertController, animated: true, completion: nil)
         
     }
 
